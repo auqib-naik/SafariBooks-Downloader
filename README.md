@@ -33,7 +33,7 @@ npm -v
 If the command returns a version number, you're all set. Next, we'll clone the repository.
 
 ```bash
-git clone https://github.com/nicohaenggi/SafariBooks-Downloader.git
+git clone https://github.com/PlonkaAdam/SafariBooks-Downloader.git
 cd SafariBooks-Downloader
 ```
 
@@ -68,7 +68,14 @@ If the command returns a version number, you have successfully installed the too
 
 ## How To Run
 
-The tool provides the following six options. The options **--bookid, --username, --password and --output** are required. However, if the username and password options are provided once, **they will be cached** and are no longer required to run the CLI.
+The tool provides the following six options. The options **--bookid, --username, --password and --output** are required. However, if the username options is provided once, **it will be cached** and is no longer required to run the CLI.
+Windows users after following the steps above can just double click a `download.cmd` script which will ask for username, password, and book URL and will pass these parameters to the CLI.
+
+If the helper script exits with error `execution of scripts is disabled on this system`, please run the following command:
+
+```bash
+powershell -Command "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser"
+```
 
 #### Options
 
