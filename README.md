@@ -33,7 +33,7 @@ npm -v
 If the command returns a version number, you're all set. Next, we'll clone the repository.
 
 ```bash
-git clone https://github.com/PlonkaAdam/SafariBooks-Downloader.git
+git clone https://github.com/auqib-naik/SafariBooks-Downloader.git
 cd SafariBooks-Downloader
 ```
 
